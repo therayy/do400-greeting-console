@@ -24,7 +24,7 @@ pipeline{
      stage('Release') {
           steps {
                 sh '''
-                oc project hakuna-matata-greetings
+                oc project haukuna-matata-greetings
                 oc start-build greeting-console  --follow --wait
                     '''
                  }
